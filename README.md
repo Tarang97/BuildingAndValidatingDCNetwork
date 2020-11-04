@@ -12,4 +12,4 @@ The Batfish team has developed multiple Ansible modules that wrap around the Pyb
 With this tool, I have generated the network state in offline mode using Jinja2 template and validated that configuration using this tool. The best use case of this tool is, it can provide validation and correctness guarantee for security, complaince, and traffic forwarding which is necessary to be compliant according to an organizations network infrastructure. 
 As I said, I have generated the network state in offline mode using Jinja2 template, this tool uses that configuation to build a neural data model and forwarding tree for the network which can then be use to validate the network with the intended state.
 
-# Technologies used: CentOS 7, Ansible, Batfish (PyBatfish), Python 3.7, Cisco (vIOS)
+Technologies used: CentOS 7, Ansible, Batfish (PyBatfish), Python 3.7, Cisco (vIOS)
